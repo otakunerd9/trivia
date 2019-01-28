@@ -3,7 +3,11 @@ import "../css/Answer.css";
 
 class Answer extends Component {
   render() {
-    return <div class="Answer">{this.props.text}</div>;
+    return (
+      <div class="Answer">
+        <button type="button">{this.props.text}</button>
+      </div>
+    );
   }
 }
 
