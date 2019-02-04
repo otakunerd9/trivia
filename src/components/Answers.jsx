@@ -8,10 +8,10 @@ class Answers extends Component {
   render() {
     return (
       <div className="Answers">
-        <Answer text={"YouTube"} />
-        <Answer text={"Google"} />
-        <Answer text={"Bing"} />
-        <Answer text={"Kahoot"} />
+        <Answer text={this.props.answerList[0]} />
+        <Answer text={this.props.answerList[1]} />
+        <Answer text={this.props.answerList[2]} />
+        <Answer text={this.props.answerList[3]} />
       </div>
     );
   }
