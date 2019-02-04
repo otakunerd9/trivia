@@ -4,7 +4,7 @@ import "../css/Question.css";
 
 class Question extends Component {
   render() {
-    return <div class="Question">What's the best website?</div>;
+    return <div class="Question">{this.props.text}</div>;
   }
 }
 
