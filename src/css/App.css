@@ -5,6 +5,5 @@ body {
 
 .app {
   text-align: center;
+  border: 10px solid blue;
 }
-
-
