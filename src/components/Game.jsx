@@ -9,8 +9,11 @@ class Game extends Component {
   render() {
     return (
       <div className="Game">
-        <Answers />
-        <Question />
+        <Answers
+          correctAnswer={this.props.currentQuestion.correct_choice_index}
+          answerList={this.props.currentQuestion.choices}
+        />
+        <Question text={this.props.currentQuestion.question_text} />
       </div>
     );
   }
