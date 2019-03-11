@@ -42,7 +42,12 @@ class App extends Component {
 					crossorigin="anonymous"
 				/>
 				<Title />
-				<Game currentQuestion={this.state.currentQuestion} />
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-2" />
+						<Game currentQuestion={this.state.currentQuestion} />
+					</div>
+				</div>
 			</div>
 		);
 	}
