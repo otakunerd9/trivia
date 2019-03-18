@@ -1,9 +1,12 @@
 body {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
+	background-color: #844d9e;
 }
 
 .app {
-  text-align: center;
-  border: 10px solid blue;
+	text-align: center;
+	/*border: 10px solid blue;*/
+	background-image: linear-gradient(-90deg, #30499B, #844D9E, #EC4A94);
+};
 }
